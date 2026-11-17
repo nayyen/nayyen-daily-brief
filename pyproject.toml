@@ -1,0 +1,24 @@
+[project]
+name = "nayyen-daily-brief"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "beautifulsoup4>=4.15.0",
+    "feedparser>=6.0.14",
+    "httpx>=0.28.1",
+    "openai>=3.51.0",
+    "psycopg[binary]>=3.3.9",
+    "python-dotenv>=1.2.4",
+    "requests>=2.34.2",
+    "resend>=2.53.2",
+    "sqlalchemy>=2.1.8",
+    "youtube-transcript-api>=1.2.5",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.4.0",
+    "pytest>=9.2.0",
+]
